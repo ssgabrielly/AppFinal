@@ -4,10 +4,6 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item android:id="@+id/perfil"
-            android:title="Perfil"
-            android:icon="@drawable/ic_menu_perfil"/>
-
         <item android:id="@+id/chamadaFalsa"
             android:title="Chamada"
             android:icon="@drawable/ic_menu_chamada"/>
