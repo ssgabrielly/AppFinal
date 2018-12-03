@@ -14,6 +14,7 @@
     <string name="nome">Nome</string>
     <string name="idade">Idade</string>
     <string name="pais">País</string>
+    <string name="btn_voltar">Voltar</string>
 
     <string name="btn_1">1</string>
     <string name="btn_2">2</string>

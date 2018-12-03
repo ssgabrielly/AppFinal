@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -29,7 +30,6 @@ public class MainActivity extends AppCompatActivity
         final TextView txtidade = (TextView) findViewById(R.id.txt_idade);
         final TextView txtpais = (TextView) findViewById(R.id.txt_pais);
         final TextView txtemail = (TextView) findViewById(R.id.txt_email);
-        Button btnvoltar = (Button) findViewById(R.id.btn_voltar);
 
         SharedPreferences perfil = getSharedPreferences("dados", MODE_PRIVATE);
         String nome = perfil.getString("nome", "");
