@@ -20,7 +20,7 @@ public class ActivityLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        meusDados = getSharedPreferences(myPreference, Context.MODE_PRIVATE);
+        meusDados = getSharedPreferences("dados", Context.MODE_PRIVATE);
 
         final EditText email = (EditText) findViewById(R.id.edt_email);
         final EditText senha = (EditText) findViewById(R.id.edt_senha);
